@@ -24,12 +24,16 @@ fi
 
 function setup() {
   npm install -g gitbook-cli
+  apt-get install -y xdg-utils wget xz-utils
+  sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
 }
 
 function build() {
   pushd "$SRC_FOLDER"
   gitbook install
   gitbook build
+  gitbook pdf ./ ./lectures.pdf
+  cp ./lectures.pdf _book/pdf/
   popd
 }
 
