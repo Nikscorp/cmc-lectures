@@ -178,7 +178,7 @@ Packets in OLSR are communicated using UDP. Port 698 has been assigned by IANA f
 
 The basic layout of any packet in OLSR is as follows (omitting IP and UDP headers):
 
-![image-20190213005126118](/img/image-20190213005126118.png)
+![image-20190213005126118](./img/image-20190213005126118.png)
 
 - The Packet Sequence Number (PSN) MUST be incremented by one each time a new OLSR packet is transmitted.
 
