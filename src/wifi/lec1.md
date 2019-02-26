@@ -1,3 +1,7 @@
+---
+typora-copy-images-to: ../img
+---
+
 ## Многошаговые сети Wifi
 
 Задачи:
@@ -78,13 +82,20 @@ Neighborhood Discovery Protocol (**NHDP**) — RFC 6130
 
 Программа рассылает UDP пакеты, через которые происходит обмен информации, по ним составляются таблицы маршрутизации
 
-##### Обнаружение соседей:
+##### Обнаружение соседей
+
+![image-20190226204830774](/img/image-20190226204830774.png)
 
 - периодическая рассылка Hello сообщений (Link Sensing)
   - Интервал HELLO_INTERVAL = 2s
+  - Не пересылаются дальше
   - Проблема синхронизации
     - Джиттер — от планируемого времени генерации пакета отнимается случайное время [0 ... MAXJITTER]​, MAXJITTER=HELLO\_INTERVAL / 4​
     - Actual message interval = MESSAGE_INTERVAL - jitter
+
+
+
+![image-20190226204922418](/img/image-20190226204922418.png)
 
 - Hello сообщение содержит:
   -  список (адресов) соседей про которые знает станция
@@ -115,6 +126,8 @@ MPR узлы (Multipoint Relay) — те симметричные одношаг
 > A. Qayyum, L. Viennot, A. Laouiti. Multipoint relaying: An efficient technique for flooding in mobile wireless networks. 35th Annual Hawaii International Conference on System Sciences (HICSS’2001).
 
 ##### Рассылка сообщений TC (Topology Control)
+
+![image-20190226204948380](/img/image-20190226204948380.png)
 
 - Topology Control
 - Рассылается broadcastom
