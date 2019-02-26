@@ -33,7 +33,8 @@ function build() {
   gitbook install
   gitbook build
   gitbook pdf ./ ./lectures.pdf
-  cp ./lectures.pdf _book/pdf/
+  mkdir -p ./_book/pdf/
+  cp ./lectures.pdf ./_book/pdf/.
   popd
 }
 
