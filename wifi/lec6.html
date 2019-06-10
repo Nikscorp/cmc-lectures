@@ -1,0 +1,473 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Лекция 6: 802.11ax: Введение · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="lec7.html" />
+    
+    
+    <link rel="prev" href="lec5.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    WiFi
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="lec1.html">
+            
+                <a href="lec1.html">
+            
+                    
+                    Лекция 1: Многошаговые сети: Manet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="lec2.html">
+            
+                <a href="lec2.html">
+            
+                    
+                    Лекция 2: Многошаговые сети: Критерии
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.2.1" data-path="hw2.html">
+            
+                <a href="hw2.html">
+            
+                    
+                    Решение ДЗ
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="lec3.html">
+            
+                <a href="lec3.html">
+            
+                    
+                    Лекция 3: Mesh сети
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="lec4.html">
+            
+                <a href="lec4.html">
+            
+                    
+                    Лекция 4: Mesh + MCCA
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="lec5.html">
+            
+                <a href="lec5.html">
+            
+                    
+                    Лекция 5: Высокоскоростной WiFi: Обзор
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.6" data-path="lec6.html">
+            
+                <a href="lec6.html">
+            
+                    
+                    Лекция 6: 802.11ax: Введение
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="lec7.html">
+            
+                <a href="lec7.html">
+            
+                    
+                    Лекция 7: Block ACK, MIMO, 802.11ac
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="lec8.html">
+            
+                <a href="lec8.html">
+            
+                    
+                    Лекция 8: 802.11ax: Продолжение
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="lec9.html">
+            
+                <a href="lec9.html">
+            
+                    
+                    Лекция 9: 802.11ax: Завершение
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="lec10.html">
+            
+                <a href="lec10.html">
+            
+                    
+                    Лекция 10: 802.11ad, ay: WiFi в mm диапазоне
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Лекция 6: 802.11ax: Введение</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h3 id="80211-ax">802.11 ax</h3>
+<p>&#x417;&#x430;&#x43A;&#x430;&#x43D;&#x447;&#x438;&#x432;&#x430;&#x435;&#x442;&#x441;&#x44F; &#x440;&#x430;&#x437;&#x440;&#x430;&#x431;&#x43E;&#x442;&#x43A;&#x430;, &#x43F;&#x43E;&#x441;&#x442;&#x443;&#x43F;&#x438;&#x442; &#x432; &#x43F;&#x440;&#x43E;&#x434;&#x430;&#x436;&#x443; (&#x43C;&#x430;&#x441;&#x441;&#x43E;&#x432;&#x443;&#x44E;) &#x447;&#x435;&#x440;&#x435;&#x437; &#x433;&#x43E;&#x434; (2020 &#x433;&#x43E;&#x434;).</p>
+<p>&#x42D;&#x432;&#x43E;&#x43B;&#x44E;&#x446;&#x438;&#x44F; &#x441;&#x442;&#x430;&#x43D;&#x434;&#x430;&#x440;&#x442;&#x43E;&#x432;:</p>
+<ol>
+<li>802.11a &#x438; g &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x443;&#x44E;&#x442; OFDM (a &#x434;&#x43B;&#x44F; 5&#x413;&#x413;&#x446;, g &#x434;&#x43B;&#x44F; 2.4 &#x413;&#x433;&#x446;, &#x432; &#x43E;&#x441;&#x442;&#x430;&#x43B;&#x44C;&#x43D;&#x43E;&#x43C; &#x441;&#x442;&#x430;&#x43D;&#x434;&#x430;&#x440;&#x442;&#x44B; &#x43F;&#x43E;&#x445;&#x43E;&#x436;&#x438;)</li>
+<li>802.11n &#x2014; MIMO + &#x440;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x438;&#x435; &#x43F;&#x43E;&#x43B;&#x43E;&#x441;&#x44B; [5/2.4]</li>
+<li>802.11ac &#x2014; higher order channel bonding &amp; MIMO + MU MIMO [&#x442;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; 5&#x413;&#x446;, &#x442;.&#x43A;. &#x434;&#x43B;&#x44F; 2.4 &#x43D;&#x435;&#x442; &#x43F;&#x43E;&#x43B;&#x43E;&#x441;&#x44B; 60&#x41C;&#x413;&#x426;]</li>
+<li>802.11 ax &#x2014; OFDMA + UL MU MIMO</li>
+</ol>
+<p>802.11 ax &#x43D;&#x435; &#x434;&#x43B;&#x44F; &#x443;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x435;&#x43D;&#x438;&#x44F; &#x43D;&#x43E;&#x43C;&#x438;&#x43D;&#x430;&#x43B;&#x44C;&#x43D;&#x43E;&#x439; &#x441;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x438; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x447;&#x438; &#x43F;&#x430;&#x43A;&#x435;&#x442;&#x43E;&#x432;, &#x43E;&#x43D; &#x434;&#x43B;&#x44F; &#x443;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x435;&#x43D;&#x438;&#x44F; &#x440;&#x435;&#x430;&#x43B;&#x44C;&#x43D;&#x43E;&#x439; &#x441;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x438;.</p>
+<p>&#x41D;&#x430;&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;, 11ac &#x43C;&#x43E;&#x436;&#x435;&#x442; &#x432; &#x442;&#x435;&#x43E;&#x440;&#x438;&#x438; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x432;&#x430;&#x442;&#x44C; 7Gbps, &#x43D;&#x43E; &#x443;&#x441;&#x43B;&#x43E;&#x432;&#x438;&#x44F; &#x43F;&#x43E;&#x447;&#x442;&#x438; &#x43D;&#x435;&#x440;&#x435;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x435;:</p>
+<ul>
+<li>&#x43D;&#x430;&#x441;&#x44B;&#x448;&#x435;&#x43D;&#x43D;&#x430;&#x44F; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x447;&#x430;</li>
+<li>&#x43D;&#x435;&#x442; &#x438;&#x43D;&#x442;&#x435;&#x440;&#x444;&#x435;&#x440;&#x435;&#x43D;&#x446;&#x438;&#x438;</li>
+<li>&#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x430;&#x44F; &#x43F;&#x43E;&#x43B;&#x43E;&#x441;&#x430;</li>
+<li>&#x43F;&#x43E; 8 &#x430;&#x43D;&#x442;&#x435;&#x43D;&#x43D; &#x43D;&#x430; &#x43E;&#x442;&#x43F;&#x440;&#x430;&#x432;&#x438;&#x442;&#x435;&#x43B;&#x435;</li>
+</ul>
+<p>&#x412; &#x436;&#x438;&#x437;&#x43D;&#x438; &#x432;&#x441;&#x435; &#x43D;&#x435; &#x442;&#x430;&#x43A;.</p>
+<h4 id="&#x43E;&#x441;&#x43D;&#x43E;&#x432;&#x43D;&#x44B;&#x435;-&#x446;&#x435;&#x43B;&#x438;">&#x41E;&#x441;&#x43D;&#x43E;&#x432;&#x43D;&#x44B;&#x435; &#x446;&#x435;&#x43B;&#x438;</h4>
+<p><strong>High Efficiency</strong></p>
+<ul>
+<li>&#x423;&#x43B;&#x443;&#x447;&#x448;&#x435;&#x43D;&#x438;&#x435; &#x43F;&#x435;&#x440;&#x444;&#x43E;&#x43C;&#x430;&#x43D;&#x441;&#x430; &#x432; &#x43F;&#x43B;&#x43E;&#x442;&#x43D;&#x44B;&#x445; &#x441;&#x435;&#x442;&#x44F;&#x445;</li>
+<li>&#x443;&#x43B;&#x443;&#x447;&#x448;&#x438;&#x445; Quolity of Experience</li>
+<li>...</li>
+</ul>
+<h4 id="&#x433;&#x43B;&#x430;&#x432;&#x43D;&#x44B;&#x435;-&#x43F;&#x43B;&#x44E;&#x448;&#x43A;&#x438;">&#x413;&#x43B;&#x430;&#x432;&#x43D;&#x44B;&#x435; &#x43F;&#x43B;&#x44E;&#x448;&#x43A;&#x438;</h4>
+<ul>
+<li>Modified PHY</li>
+<li>Uplink Multi-user Multiple Input Multiple Output (UL MU MIMO), (802.11ac supports multiuser MIMO, but only in downlink mode. In contrast, 802.11ax adds uplink capability, so multiple users can upload video simultaneously)</li>
+<li>OFDMA (&#x43A;&#x438;&#x43B;&#x43B;&#x435;&#x440; &#x444;&#x438;&#x447;&#x430;) &#x2014; &#x43F;&#x43E;&#x44F;&#x432;&#x438;&#x43B;&#x43E;&#x441;&#x44C; &#x442;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x442;&#x443;&#x442;</li>
+<li>Channel access modifications</li>
+<li>Features for enabling Spatial Reuse (SR) (&#x434;&#x432;&#x435; &#x442;&#x43E;&#x447;&#x43A;&#x438; &#x434;&#x43E;&#x441;&#x442;&#x443;&#x43F;&#x430; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x430;&#x44E;&#x442; &#x440;&#x44F;&#x434;&#x43E;&#x43C;, &#x43D;&#x43E; &#x43F;&#x440;&#x438; &#x44D;&#x442;&#x43E;&#x43C; &#x440;&#x430;&#x437;&#x434;&#x435;&#x43B;&#x44F;&#x44E;&#x442; &#x43A;&#x430;&#x43D;&#x430;&#x43B; &#x431;&#x435;&#x437; &#x43D;&#x435;&#x433;&#x430;&#x442;&#x438;&#x432;&#x43D;&#x44B;&#x445; &#x43F;&#x43E;&#x441;&#x43B;&#x435;&#x434;&#x441;&#x442;&#x432;&#x438;&#x439;)</li>
+<li>Enhanced Power Efficiency</li>
+</ul>
+<h5 id="phy-features">PHY Features</h5>
+<ul>
+<li>&#x423;&#x43D;&#x430;&#x441;&#x43B;&#x435;&#x434;&#x43E;&#x432;&#x430;&#x43B;&#x438; &#x441; 11ac</li>
+<li>Changed numerology 1024 QAM</li>
+<li>&#x420;&#x430;&#x441;&#x442;&#x44F;&#x43D;&#x443;&#x43B;&#x438; OFDM &#x441;&#x438;&#x43C;&#x432;&#x43E;&#x43B; 3.2 us (+ GI of 0.8us) -&gt; 12.8 us (+GI of 3.2, 1.6 or 0.8 us) (omg, &#x447;&#x442;&#x43E; &#x44D;&#x442;&#x43E; &#x432;&#x43E;&#x43E;&#x431;&#x449;&#x435; &#x437;&#x43D;&#x430;&#x447;&#x438;&#x442;, &#x441;&#x43F;&#x430;&#x441;&#x438;&#x442;&#x435;).<ul>
+<li>GI &#x44D;&#x442;&#x43E; Guard Interval</li>
+<li>&#x41D;&#x443;&#x436;&#x43D;&#x43E;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x432;&#x430;&#x442;&#x44C; &#x43D;&#x430; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x438;&#x435; &#x440;&#x430;&#x441;&#x441;&#x442;&#x43E;&#x44F;&#x43D;&#x438;&#x44F; (?)</li>
+<li>&#x438; &#x443;&#x43C;&#x435;&#x43D;&#x44C;&#x448;&#x430;&#x442;&#x44C; overhead &#x43E;&#x442; GI</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>&#x41D;&#x43E;&#x43C;&#x438;&#x43D;&#x430;&#x43B;&#x44C;&#x43D;&#x430;&#x44F; &#x441;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x44C; &#x443;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x438;&#x43B;&#x430;&#x441;&#x44C; &#x432;&#x441;&#x435;&#x433;&#x43E; &#x43D;&#x430; 37%</p>
+<p>&#x417;&#x430;&#x442;&#x43E; &#x440;&#x435;&#x430;&#x43B;&#x44C;&#x43D;&#x430;&#x44F; &#x43A;&#x43E;&#x43D;&#x43A;&#x440;&#x435;&#x442;&#x43D;&#x43E; &#x443;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x438;&#x43B;&#x430;&#x441;&#x44C;</p>
+</blockquote>
+<p>&#x422;&#x43E;, &#x447;&#x442;&#x43E; &#x43F;&#x43E;&#x44F;&#x432;&#x438;&#x43B;&#x441;&#x44F; full-duplex &#x2014; &#x44D;&#x442;&#x43E; &#x43C;&#x438;&#x444;.</p>
+<p>&#x41D;&#x43E; &#x43F;&#x43E;&#x44F;&#x432;&#x438;&#x43B;&#x441;&#x44F; MU Transmission &#x432; &#x432;&#x438;&#x434;&#x435; OFDMA.</p>
+<p>&#x412; &#x434;&#x430;&#x443;&#x43D;&#x43B;&#x438;&#x43D;&#x43A;&#x435; &#x43F;&#x440;&#x43E;&#x441;&#x442;&#x43E; &#x43F;&#x43E;&#x441;&#x44B;&#x43B;&#x430;&#x435;&#x43C; &#x432;&#x441;&#x435;&#x43C; &#x43E;&#x434;&#x43D;&#x443; &#x43F;&#x440;&#x435;&#x430;&#x43C;&#x431;&#x443;&#x43B;&#x443;.</p>
+<p>&#x412; &#x430;&#x43F;&#x43B;&#x438;&#x43D;&#x43A;&#x435; &#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x435;&#x43B;&#x438; &#x43E;&#x442;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x44F;&#x435;&#x442; &#x43E;&#x434;&#x43D;&#x443; &#x438; &#x442;&#x443; &#x436;&#x435; &#x43F;&#x440;&#x435;&#x430;&#x43C;&#x431;&#x443;&#x43B;&#x443;, &#x441;&#x438;&#x43D;&#x445;&#x440;&#x43E;&#x43D;&#x438;&#x437;&#x438;&#x440;&#x443;&#x44E;&#x442;&#x441;&#x44F; &#x431;&#x430;&#x437;&#x43E;&#x432;&#x43E;&#x439; &#x441;&#x442;&#x430;&#x43D;&#x446;&#x438;&#x435;&#x439;.</p>
+<hr>
+<p>&#x421;&#x442;&#x440;&#x443;&#x43A;&#x442;&#x443;&#x440;&#x430; PHY &#x43A;&#x430;&#x434;&#x440;&#x43E;&#x432; &#x431;&#x43E;&#x43B;&#x435;&#x435; &#x43F;&#x43E;&#x434;&#x440;&#x43E;&#x431;&#x43D;&#x43E;:</p>
+<p>&#x41F;&#x440;&#x435;&#x430;&#x43C;&#x431;&#x443;&#x43B;&#x430;: (Duplicated at every 20 MHz)</p>
+<ul>
+<li>L-STF</li>
+<li>L-LTF</li>
+<li>L-SIG</li>
+<li>RL-SIG</li>
+<li>HE-SIG-A (Contains some MAC layer information)</li>
+</ul>
+<p>&#x414;&#x430;&#x43B;&#x44C;&#x448;&#x435;: (Transmittied in the whole used band)</p>
+<ul>
+<li>HE part of the preable</li>
+<li>HE-STF</li>
+<li>HE-LTF</li>
+<li>Data</li>
+<li>...</li>
+</ul>
+<p>&#x2026;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="lec5.html" class="navigation navigation-prev " aria-label="Previous page: Лекция 5: Высокоскоростной WiFi: Обзор">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="lec7.html" class="navigation navigation-next " aria-label="Next page: Лекция 7: Block ACK, MIMO, 802.11ac">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Лекция 6: 802.11ax: Введение","level":"1.2.6","depth":2,"next":{"title":"Лекция 7: Block ACK, MIMO, 802.11ac","level":"1.2.7","depth":2,"path":"wifi/lec7.md","ref":"./wifi/lec7.md","articles":[]},"previous":{"title":"Лекция 5: Высокоскоростной WiFi: Обзор","level":"1.2.5","depth":2,"path":"wifi/lec5.md","ref":"./wifi/lec5.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["katex@git+https://github.com/Nikscorp/plugin-katex.git"],"pluginsConfig":{"katex":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"wifi/lec6.md","mtime":"2019-06-10T20:11:24.564Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-06-10T20:12:37.760Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

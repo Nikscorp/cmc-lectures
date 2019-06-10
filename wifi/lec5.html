@@ -1,0 +1,545 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Лекция 5: Высокоскоростной WiFi: Обзор · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="lec6.html" />
+    
+    
+    <link rel="prev" href="lec4.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    WiFi
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="lec1.html">
+            
+                <a href="lec1.html">
+            
+                    
+                    Лекция 1: Многошаговые сети: Manet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="lec2.html">
+            
+                <a href="lec2.html">
+            
+                    
+                    Лекция 2: Многошаговые сети: Критерии
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.2.1" data-path="hw2.html">
+            
+                <a href="hw2.html">
+            
+                    
+                    Решение ДЗ
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="lec3.html">
+            
+                <a href="lec3.html">
+            
+                    
+                    Лекция 3: Mesh сети
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="lec4.html">
+            
+                <a href="lec4.html">
+            
+                    
+                    Лекция 4: Mesh + MCCA
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.5" data-path="lec5.html">
+            
+                <a href="lec5.html">
+            
+                    
+                    Лекция 5: Высокоскоростной WiFi: Обзор
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="lec6.html">
+            
+                <a href="lec6.html">
+            
+                    
+                    Лекция 6: 802.11ax: Введение
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="lec7.html">
+            
+                <a href="lec7.html">
+            
+                    
+                    Лекция 7: Block ACK, MIMO, 802.11ac
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="lec8.html">
+            
+                <a href="lec8.html">
+            
+                    
+                    Лекция 8: 802.11ax: Продолжение
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="lec9.html">
+            
+                <a href="lec9.html">
+            
+                    
+                    Лекция 9: 802.11ax: Завершение
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="lec10.html">
+            
+                <a href="lec10.html">
+            
+                    
+                    Лекция 10: 802.11ad, ay: WiFi в mm диапазоне
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Лекция 5: Высокоскоростной WiFi: Обзор</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h3 id="&#x432;&#x44B;&#x441;&#x43E;&#x43A;&#x43E;&#x441;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x43D;&#x43E;&#x439;-wifi">&#x412;&#x44B;&#x441;&#x43E;&#x43A;&#x43E;&#x441;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x43D;&#x43E;&#x439; WiFi</h3>
+<ul>
+<li><p>&#x421;&#x43D;&#x430;&#x447;&#x430;&#x43B;&#x430; &#x441;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x44C; WiFi 1-2 &#x41C;&#x431;/&#x441;</p>
+</li>
+<li><p>&#x43F;&#x43E;&#x442;&#x43E;&#x43C; 802.11a &#x438; b &#x434;&#x43E; 11 &#x438; 54 &#x43C;&#x431;/&#x441;</p>
+</li>
+<li><p>OFDMA</p>
+</li>
+<li>&#x438; &#x442;&#x434; &#x434;&#x43E; 30 &#x413;&#x431;/&#x441;</li>
+</ul>
+<h4 id="&#x43F;&#x443;&#x442;&#x438;-&#x443;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x435;&#x43D;&#x438;&#x44F;-&#x441;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x438;">&#x41F;&#x443;&#x442;&#x438; &#x443;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x435;&#x43D;&#x438;&#x44F; &#x441;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x438;</h4>
+<ul>
+<li>&#x423;&#x432;&#x435;&#x43B;&#x435;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x448;&#x438;&#x440;&#x438;&#x43D;&#x44B; &#x43F;&#x43E;&#x43B;&#x43E;&#x441;&#x44B;</li>
+<li>MIMO<ul>
+<li>&#x434;&#x432;&#x435; &#x430;&#x43D;&#x442;&#x435;&#x43D;&#x43D;&#x44B; &#x43D;&#x430; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x442;&#x447;&#x438;&#x43A;&#x435; &#x438; 2 &#x43D;&#x430; &#x43F;&#x440;&#x438;&#x435;&#x43C;&#x43D;&#x438;&#x43A;&#x435;</li>
+<li>4 &#x43F;&#x443;&#x442;&#x438;</li>
+<li>&#x421;&#x443;&#x43C;&#x43C;&#x430; &#x434;&#x432;&#x443;&#x445; &#x441;&#x438;&#x433;&#x43D;&#x430;&#x43B;&#x43E;&#x432; <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>X</mi><mn>1</mn></msub><mo>(</mo><mi>t</mi><mo>&#x2212;</mo><mi>&#x3B4;</mi><msub><mi>t</mi><mn>1</mn></msub><mo>)</mo><mo>+</mo><msub><mi>X</mi><mn>2</mn></msub><mo>(</mo><mi>t</mi><mo>&#x2212;</mo><mi>&#x3B4;</mi><msub><mi>t</mi><mn>2</mn></msub><mo>)</mo><mo>&#x2192;</mo><msub><mi>h</mi><mn>1</mn></msub><msub><mi>X</mi><mn>1</mn></msub><mo>(</mo><mi>t</mi><mo>)</mo><mo>+</mo><msub><mi>h</mi><mn>2</mn></msub><msub><mi>X</mi><mn>2</mn></msub><mo>(</mo><mi>t</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">X_1(t-\delta t_1) + X_2(t - \delta t_2) \to h_1X_1(t) + h_2X_2(t)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07847em;">X</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.07847em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mopen">(</span><span class="mord mathdefault">t</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">&#x2212;</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.03785em;">&#x3B4;</span><span class="mord"><span class="mord mathdefault">t</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07847em;">X</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.07847em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mopen">(</span><span class="mord mathdefault">t</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">&#x2212;</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.03785em;">&#x3B4;</span><span class="mord"><span class="mord mathdefault">t</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">&#x2192;</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault">h</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07847em;">X</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.07847em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mopen">(</span><span class="mord mathdefault">t</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault">h</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07847em;">X</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.07847em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mopen">(</span><span class="mord mathdefault">t</span><span class="mclose">)</span></span></span></span></li>
+<li>&#x438;&#x43C;&#x435;&#x435;&#x43C; &#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x443; &#x438;&#x437; &#x434;&#x432;&#x443;&#x445; &#x443;&#x440;&#x430;&#x432;&#x43D;&#x435;&#x43D;&#x438;&#x439;</li>
+<li>&#x437;&#x43D;&#x430;&#x435;&#x43C; &#x437;&#x430;&#x442;&#x443;&#x445;&#x430;&#x43D;&#x438;&#x435; (&#x43A;&#x43E;&#x44D;&#x444;&#x444;&#x438;&#x446;&#x438;&#x435;&#x43D;&#x442;&#x44B;)</li>
+<li>&#x440;&#x435;&#x448;&#x430;&#x435;&#x43C; &#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x443;, &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x430;&#x435;&#x43C; &#x438;&#x441;&#x43A;&#x43E;&#x43C;&#x43E;&#x435;</li>
+<li>&#x43C;&#x438;&#x43D;&#x443;&#x441; &#x432; &#x442;&#x43E;&#x43C;, &#x447;&#x442;&#x43E; &#x437;&#x43D;&#x430;&#x435;&#x43C; &#x432;&#x441;&#x435; &#x44D;&#x442;&#x43E; &#x441; &#x43A;&#x430;&#x43A;&#x43E;&#x439;-&#x442;&#x43E; &#x442;&#x43E;&#x447;&#x43D;&#x43E;&#x441;&#x442;&#x44C;&#x44E; (<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>h</mi></mrow><annotation encoding="application/x-tex">h</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault">h</span></span></span></span> &#x43C;&#x435;&#x43D;&#x44F;&#x44E;&#x442;&#x441;&#x44F;)</li>
+<li>&#x43F;&#x443;&#x442;&#x438; &#x43D;&#x435; &#x432;&#x441;&#x435;&#x433;&#x434;&#x430; &#x43D;&#x435;&#x437;&#x430;&#x432;&#x438;&#x441;&#x438;&#x43C;&#x44B;</li>
+</ul>
+</li>
+<li>Single User MIMO (802.11 ac, ax)<ul>
+<li>&#x41F;&#x443;&#x442;&#x438; (&#x441;&#x442;&#x440;&#x438;&#x43C;&#x44B;) &#x43F;&#x440;&#x438;&#x43D;&#x430;&#x434;&#x43B;&#x435;&#x436;&#x430;&#x442; &#x43E;&#x434;&#x43D;&#x43E;&#x43C;&#x443; &#x443;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x441;&#x442;&#x432;&#x443; (&#x43D;&#x430; &#x43A;&#x430;&#x436;&#x434;&#x43E;&#x43C; &#x443;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x441;&#x442;&#x432;&#x435; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x43E;&#x434;&#x43D;&#x43E;&#x439; &#x430;&#x43D;&#x442;&#x435;&#x43D;&#x43D;&#x44B;, &#x432; Multi User &#x43C;&#x431; &#x43E;&#x434;&#x43D;&#x430;)</li>
+<li>&#x41D;&#x430;&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;, 8 &#x430;&#x43D;&#x442;&#x435;&#x43D;&#x43D; =&gt; 4 &#x443;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x441;&#x442;&#x432;&#x430; &#x43F;&#x43E; 2 &#x441;&#x442;&#x440;&#x438;&#x43C;&#x430;</li>
+</ul>
+</li>
+<li>&#x41D;&#x43E;&#x432;&#x44B;&#x435; &#x421;&#x41A;&#x41A;<ul>
+<li>QAM 16, QAM 64, QAM 256, QAM 1024</li>
+<li>QAM 4096 (&#x434;&#x443;&#x43C;&#x430;&#x44E;&#x442; &#x434;&#x435;&#x43B;&#x430;&#x442;&#x44C; &#x438;&#x43B;&#x438; &#x43D;&#x435;&#x442;)</li>
+<li>&#x41D;&#x43E;&#x43C;&#x435;&#x440; &#x441;&#x43E;&#x43E;&#x442;&#x432;&#x435;&#x442;&#x441;&#x442;&#x432;&#x443;&#x435;&#x442; &#x43A;&#x43E;&#x43B;&#x438;&#x447;&#x435;&#x441;&#x442;&#x432;&#x443; &#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x438;&#x439; &#x43E;&#x434;&#x43D;&#x43E;&#x433;&#x43E; &#x441;&#x438;&#x43C;&#x432;&#x43E;&#x43B;&#x430; (&#x43D;&#x430; &#x43E;&#x434;&#x43D;&#x43E;&#x439; &#x43D;&#x435;&#x441;&#x443;&#x449;&#x435;&#x439;)<ul>
+<li>64 =&gt; 6 &#x431;&#x438;&#x442; (&#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x437;&#x430;&#x43A;&#x43E;&#x434;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C;)</li>
+<li>1024 =&gt; 10 &#x431;&#x438;&#x442;</li>
+</ul>
+</li>
+<li>&#x423;&#x43F;&#x438;&#x440;&#x430;&#x435;&#x442;&#x441;&#x44F; &#x432; &#x444;&#x43E;&#x440;&#x43C;&#x443;&#x43B;&#x443; &#x428;&#x435;&#x43D;&#x43D;&#x43E;&#x43D;&#x430; (?)</li>
+<li>&#x41A;&#x430;&#x436;&#x434;&#x44B;&#x439; &#x440;&#x430;&#x437; &#x43D;&#x443;&#x436;&#x435;&#x43D; &#x432; 2 &#x440;&#x430;&#x437;&#x430; &#x43C;&#x435;&#x43D;&#x44C;&#x448;&#x438;&#x439; SNR</li>
+</ul>
+</li>
+</ul>
+<p><strong>&#x41D;&#x43E;&#x43C;&#x438;&#x43D;&#x430;&#x43B;&#x44C;&#x43D;&#x430;&#x44F; &#x441;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x44C; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x447;&#x438; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x445;</strong> &#x2014; &#x441;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x44C; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x447;&#x438; payload &#x434;&#x43B;&#x44F; &#x43F;&#x430;&#x43A;&#x435;&#x442;&#x43E;&#x432;</p>
+<p>&#x41F;&#x430;&#x43A;&#x435;&#x442; &#x435;&#x449;&#x435; &#x441;&#x43E;&#x434;&#x435;&#x440;&#x436;&#x438;&#x442; &#x43F;&#x440;&#x435;&#x430;&#x43C;&#x431;&#x443;&#x43B;&#x443; (&#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x435;&#x442;&#x441;&#x44F; &#x43D;&#x430; &#x43D;&#x435;&#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x43E;&#x439; &#x444;&#x438;&#x43A;&#x441;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43D;&#x43E;&#x439; &#x421;&#x41A;&#x41A;), &#x441;&#x43E;&#x441;&#x442;&#x43E;&#x438;&#x442; &#x438;&#x437;:</p>
+<ul>
+<li>training fields ~ 16&#x43C;&#x43A;&#x441; (&#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43E;&#x431;&#x43E;&#x437;&#x43D;&#x430;&#x447;&#x438;&#x442;&#x44C; &#x444;&#x430;&#x43A;&#x442; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x447;&#x443;)</li>
+<li>OFDM &#x441;&#x438;&#x43C;&#x432;&#x43E;&#x43B; ~ 4&#x43C;&#x43A;&#x441; (&#x437;&#x430;&#x434;&#x430;&#x435;&#x442; &#x43F;&#x430;&#x440;&#x430;&#x43C;&#x435;&#x442;&#x440;&#x44B;: &#x434;&#x43B;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;&#x441;&#x442;&#x44C; &#x43F;&#x430;&#x43A;&#x435;&#x442;&#x430; &#x438; &#x430;&#x43B;&#x433;&#x43E;&#x440;&#x438;&#x442;&#x43C; &#x421;&#x41A;&#x41A; &#x434;&#x43B;&#x44F; payload)</li>
+</ul>
+<p>&#x41F;&#x440;&#x438; &#x443;&#x432;&#x435;&#x43B;&#x435;&#x447;&#x435;&#x43D;&#x438;&#x438; &#x43D;&#x43E;&#x43C;&#x438;&#x43D;&#x430;&#x43B;&#x44C;&#x43D;&#x43E;&#x439; &#x441;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x438;, &#x441;&#x438;&#x43B;&#x44C;&#x43D;&#x43E; &#x438;&#x433;&#x440;&#x430;&#x44E;&#x442; &#x440;&#x43E;&#x43B;&#x44C; &#x43D;&#x430;&#x43A;&#x43B;&#x430;&#x434;&#x43D;&#x44B;&#x435; &#x440;&#x430;&#x441;&#x445;&#x43E;&#x434;&#x44B; &#x43D;&#x430; &#x43F;&#x440;&#x435;&#x430;&#x43C;&#x431;&#x443;&#x43B;&#x443; &#x438; ACK-&#x438;.</p>
+<p>&#x41F;&#x443;&#x442;&#x438; &#x440;&#x435;&#x448;&#x435;&#x43D;&#x438;&#x44F;:</p>
+<ul>
+<li>&#x430;&#x433;&#x433;&#x440;&#x435;&#x433;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x435;</li>
+<li>&#x431;&#x43B;&#x43E;&#x447;&#x43D;&#x43E;&#x435; &#x43F;&#x43E;&#x434;&#x442;&#x432;&#x435;&#x440;&#x436;&#x434;&#x435;&#x43D;&#x438;&#x435;</li>
+</ul>
+<h4 id="&#x430;&#x433;&#x433;&#x440;&#x435;&#x433;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x435;">&#x410;&#x433;&#x433;&#x440;&#x435;&#x433;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x435;</h4>
+<p>// &#x41E;&#x431;&#x44A;&#x44F;&#x441;&#x43D;&#x435;&#x43D;&#x438;&#x435; &#x43E;&#x442;&#x445;&#x43E;&#x434;&#x438;&#x442; &#x43E;&#x442; &#x441;&#x442;&#x430;&#x43D;&#x434;&#x430;&#x440;&#x442;&#x430;</p>
+<p>TXOP &#x438; OFDMA</p>
+<h5 id="txop">TXOP</h5>
+<p>&#x418;&#x437;&#x431;&#x430;&#x432;&#x43B;&#x44F;&#x435;&#x43C;&#x441;&#x44F; &#x43E;&#x442; &#x441;&#x43B;&#x43E;&#x442;&#x43E;&#x432; &#x43E;&#x442;&#x441;&#x440;&#x43E;&#x447;&#x43A;&#x438;.</p>
+<p>&#x41A; &#x44D;&#x442;&#x43E;&#x43C;&#x443; &#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x434;&#x43E;&#x431;&#x430;&#x432;&#x438;&#x442;&#x44C; &#x431;&#x43B;&#x43E;&#x447;&#x43D;&#x43E;&#x435; &#x43F;&#x43E;&#x434;&#x442;&#x432;&#x435;&#x440;&#x436;&#x434;&#x435;&#x43D;&#x438;&#x435;.</p>
+<h5 id="a-mpdu-&#x438;-a-msdu">A-MPDU &#x438; A-MSDU</h5>
+<p>A-MPDU &#x2014; protocol</p>
+<p>A-MSDU &#x2014; service</p>
+<h6 id="a-msdu">A-MSDU</h6>
+<p>&#x435;&#x441;&#x442;&#x44C; &#x43F;&#x430;&#x43A;&#x435;&#x442;&#x44B; &#x441; &#x440;&#x430;&#x432;&#x43D;&#x44B;&#x43C;&#x438; src &#x438; dst mac, &#x438;&#x445; &#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x441;&#x43A;&#x43B;&#x435;&#x438;&#x442;&#x44C;.</p>
+<p>&#x412;&#x43C;&#x435;&#x441;&#x442;&#x43E; data &#x432; payload &#x43F;&#x43E;&#x43C;&#x435;&#x449;&#x430;&#x435;&#x442;&#x441;&#x44F; AMSDU, &#x441;&#x43E;&#x441;&#x442;&#x43E;&#x44F;&#x449;&#x438;&#x439; &#x438;&#x437; &#x441;&#x430;&#x431;&#x444;&#x440;&#x435;&#x439;&#x43C;&#x43E;&#x432;, &#x43A;&#x430;&#x436;&#x434;&#x44B;&#x439; &#x441;&#x43E;&#x441;&#x442;&#x43E;&#x438;&#x442; &#x438;&#x437;:</p>
+<ul>
+<li>2 &#x430;&#x434;&#x440;&#x435;&#x441;&#x430; (&#x43C;&#x43E;&#x433;&#x443;&#x442; &#x431;&#x44B;&#x442;&#x44C; &#x443;&#x43D;&#x438;&#x43A;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x43C;&#x438; &#x434;&#x43B;&#x44F; &#x43A;&#x430;&#x436;&#x434;&#x43E;&#x433;&#x43E; &#x43F;&#x430;&#x43A;&#x435;&#x442;&#x430; (&#x441;&#x43B;&#x430;&#x447;&#x430;&#x438; 3-&#x445; &#x438; 4-&#x447; &#x430;&#x434;&#x440;&#x435;&#x441;&#x43E;&#x432;))</li>
+<li>&#x414;&#x43B;&#x438;&#x43D;&#x430;</li>
+<li>MSDU (&#x43E;&#x440;&#x438;&#x433;&#x43D;&#x430;&#x43B;&#x44C;&#x43D;&#x430;&#x44F; data)</li>
+<li>Padding</li>
+</ul>
+<p>&#x41E;&#x431;&#x449;&#x430;&#x44F; &#x43A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x44C;&#x43D;&#x430;&#x44F; &#x441;&#x443;&#x43C;&#x43C;&#x430; &#x43D;&#x430; &#x432;&#x441;&#x435; &#x441;&#x430;&#x431;&#x444;&#x440;&#x435;&#x439;&#x43C;&#x44B;</p>
+<p>&#x41C;&#x438;&#x43D;&#x443;&#x441;&#x44B;:</p>
+<ul>
+<li>&#x43E;&#x434;&#x43D;&#x430; &#x43A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x44C;&#x43D;&#x430;&#x44F; &#x441;&#x443;&#x43C;&#x43C;&#x430;</li>
+</ul>
+<h6 id="a-mpdu">A-MPDU</h6>
+<p>&#x412;&#x441;&#x435; &#x43F;&#x43E;&#x445;&#x43E;&#x436;&#x435;, &#x43D;&#x43E; &#x435;&#x449;&#x435; &#x435;&#x441;&#x442;&#x44C; delimeter&apos;&#x44B;</p>
+<p>&#x421;&#x43E;&#x441;&#x442;&#x430;&#x432; &#x441;&#x430;&#x431;&#x444;&#x440;&#x435;&#x439;&#x43C;&#x430;:</p>
+<ul>
+<li>delimeter<ul>
+<li>&#x440;&#x435;&#x437;&#x435;&#x440;&#x432;</li>
+<li>&#x434;&#x43B;&#x438;&#x43D;&#x430;</li>
+<li>&#x43A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x44C;&#x43D;&#x430;&#x44F; &#x441;&#x443;&#x43C;&#x43C;&#x430; (&#x434;&#x43B;&#x44F; &#x43F;&#x43E;&#x43B;&#x44F; length)</li>
+<li>&#x43F;&#x43E;&#x434;&#x43F;&#x438;&#x441;&#x44C; (ascii &#x43A;&#x43E;&#x434; &#x431;&#x443;&#x43A;&#x432;&#x44B; &#x201C;N&#x201D; (78))<ul>
+<li>&#x41D;&#x443;&#x436;&#x43D;&#x43E;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x432;&#x43E;&#x441;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x438;&#x442;&#x44C;&#x441;&#x44F; &#x43F;&#x440;&#x438; &#x43D;&#x430;&#x440;&#x443;&#x448;&#x435;&#x43D;&#x438;&#x438; &#x43A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x44C;&#x43D;&#x43E;&#x439; &#x441;&#x443;&#x43C;&#x43C;&#x44B; length</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>MPDU (&#x43A;&#x430;&#x434;&#x440; &#x43A;&#x430;&#x43D;&#x430;&#x43B;&#x44C;&#x43D;&#x43E;&#x433;&#x43E; &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F; &#x441;&#x43E; &#x432;&#x441;&#x435;&#x43C;&#x438; &#x437;&#x430;&#x433;&#x43E;&#x43B;&#x43E;&#x432;&#x43A;&#x430;&#x43C;&#x438;)</li>
+<li>Padding (&#x447;&#x442;&#x43E;&#x431;&#x44B; &#x432;&#x44B;&#x440;&#x430;&#x432;&#x43D;&#x44F;&#x442;&#x44C; &#x434;&#x43B;&#x438;&#x43D;&#x44B; &#x444;&#x440;&#x435;&#x439;&#x43C;&#x43E;&#x432; &#x434;&#x43B;&#x44F; &#x436;&#x435;&#x43B;&#x435;&#x437;&#x43E;&#x43A;)</li>
+</ul>
+<p>MPDU &#x434;&#x43B;&#x438;&#x43D;&#x435;&#x435; &#x447;&#x435;&#x43C; MSDU</p>
+<p>&#x417;&#x430;&#x442;&#x43E; &#x435;&#x441;&#x442;&#x44C; &#x43A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x44C;&#x43D;&#x430;&#x44F; &#x441;&#x443;&#x43C;&#x43C;&#x430; &#x434;&#x43B;&#x44F; &#x43A;&#x430;&#x436;&#x434;&#x43E;&#x433;&#x43E; &#x43A;&#x430;&#x434;&#x440;&#x430;</p>
+<h5 id="ofdma">OFDMA</h5>
+<p>&#x41F;&#x43E;&#x441;&#x44B;&#x43B;&#x430;&#x435;&#x43C; &#x43E;&#x434;&#x43D;&#x443; &#x43F;&#x440;&#x435;&#x430;&#x43C;&#x431;&#x443;&#x43B;&#x443; &#x444;&#x438;&#x437;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x43E;&#x433;&#x43E; &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F;</p>
+<p>&#x414;&#x430;&#x43B;&#x44C;&#x43D;&#x435;&#x439;&#x448;&#x430;&#x44F; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x447;&#x430; &#x43F;&#x440;&#x43E;&#x434;&#x43E;&#x43B;&#x436;&#x430;&#x435;&#x442;&#x441;&#x44F; &#x43D;&#x435;&#x437;&#x430;&#x432;&#x438;&#x441;&#x438;&#x43C;&#x43E; &#x432; &#x43A;&#x430;&#x436;&#x434;&#x43E;&#x43C; &#x438;&#x437; resource &#x44E;&#x43D;&#x438;&#x442;&#x43E;&#x432; (&#x43F;&#x43E;&#x434;&#x43D;&#x435;&#x441;&#x443;&#x449;&#x438;&#x435;). &#x422;&#x430;&#x43A;&#x438;&#x43C; &#x43E;&#x431;&#x440;&#x430;&#x437;&#x43E;&#x43C; &#x43F;&#x440;&#x435;&#x430;&#x43C;&#x431;&#x443;&#x43B;&#x430; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x435;&#x442;&#x441;&#x44F; &#x43E;&#x434;&#x438;&#x43D; &#x440;&#x430;&#x437; &#x434;&#x43B;&#x44F; &#x432;&#x441;&#x435;&#x445; &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x435;&#x439;. &#x422;&#x430;&#x43A;&#x438;&#x43C; &#x43E;&#x431;&#x440;&#x430;&#x437;&#x43E;&#x43C; &#x443;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x438;&#x432;&#x430;&#x435;&#x43C; SNR, &#x438;&#x434;&#x435;&#x430;&#x43B;&#x44C;&#x43D;&#x43E; &#x434;&#x43B;&#x44F; uplink-&#x430;.</p>
+<p>&#x41F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x44E;&#x449;&#x430;&#x44F; &#x441;&#x442;&#x430;&#x43D;&#x446;&#x438;&#x44F; &#x441;&#x43E;&#x43E;&#x431;&#x449;&#x430;&#x435;&#x442; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x430;&#x442;&#x435;&#x43B;&#x44E; &#x440;&#x435;&#x441;&#x443;&#x440;&#x441; &#x44E;&#x43D;&#x438;&#x442;, &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x439; &#x43D;&#x443;&#x436;&#x43D;&#x43E; &#x441;&#x43B;&#x443;&#x448;&#x430;&#x442;&#x44C;.</p>
+<h4 id="&#x431;&#x43B;&#x43E;&#x447;&#x43D;&#x43E;&#x435;-&#x43F;&#x43E;&#x434;&#x442;&#x432;&#x435;&#x440;&#x436;&#x434;&#x435;&#x43D;&#x438;&#x435;">&#x411;&#x43B;&#x43E;&#x447;&#x43D;&#x43E;&#x435; &#x43F;&#x43E;&#x434;&#x442;&#x432;&#x435;&#x440;&#x436;&#x434;&#x435;&#x43D;&#x438;&#x435;</h4>
+<p>&#x423;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x441;&#x442;&#x432;&#x430; &#x434;&#x43E;&#x433;&#x43E;&#x432;&#x430;&#x440;&#x438;&#x432;&#x430;&#x44E;&#x442;&#x441;&#x44F;, &#x447;&#x442;&#x43E; &#x43F;&#x43E;&#x434;&#x442;&#x432;&#x435;&#x436;&#x434;&#x430;&#x442;&#x44C; &#x431;&#x443;&#x434;&#x443;&#x442; &#x43F;&#x430;&#x447;&#x43A;&#x430;&#x43C;&#x438;</p>
+<p>&#x41F;&#x43E;&#x44F;&#x432;&#x438;&#x43B;&#x43E;&#x441;&#x44C; &#x432; 802.11e. (&#x431;&#x443;&#x434;&#x435;&#x442; &#x432; &#x442;&#x435;&#x441;&#x442;&#x435;)</p>
+<blockquote>
+<p>&#x412;&#x43E;&#x43F;&#x440;&#x43E;&#x441;: &#x412; &#x43A;&#x430;&#x43A;&#x43E;&#x43C; &#x441;&#x442;&#x430;&#x43D;&#x434;&#x430;&#x440;&#x442;&#x435; &#x43F;&#x43E;&#x44F;&#x432;&#x438;&#x43B;&#x441;&#x44F; BlockAck</p>
+<p>&#x41E;&#x442;&#x432;&#x435;&#x442;: &#x422;&#x43E;&#x433;&#x434;&#x430;, &#x43A;&#x43E;&#x433;&#x434;&#x430; &#x43F;&#x43E;&#x44F;&#x432;&#x438;&#x43B;&#x441;&#x44F; txop (&#x432;&#x438;&#x434;&#x438;&#x43C;&#x43E; &#x432; 802.11e)</p>
+</blockquote>
+<p>&#x41F;&#x43E;&#x441;&#x44B;&#x43B;&#x430;&#x435;&#x43C; &#x43C;&#x43D;&#x43E;&#x433;&#x43E; &#x43F;&#x430;&#x43A;&#x435;&#x442;&#x43E;&#x432;.</p>
+<p>&#x41F;&#x43E;&#x442;&#x43E;&#x43C; block-ack request, &#x443;&#x43A;&#x430;&#x437;&#x44B;&#x432;&#x430;&#x44F; &#x441;&#x442;&#x430;&#x440;&#x442;&#x43E;&#x432;&#x44B;&#x439; &#x43D;&#x43E;&#x43C;&#x435;&#x440; &#x43F;&#x430;&#x43A;&#x435;&#x442;&#x430;</p>
+<p>&#x412; &#x43E;&#x442;&#x432;&#x435;&#x442; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x430;&#x435;&#x43C; &#x431;&#x438;&#x442;&#x43E;&#x432;&#x443;&#x44E; &#x43C;&#x430;&#x441;&#x43A;&#x443;.</p>
+<p>&#x41D;&#x443;&#x436;&#x43D;&#x43E; &#x434;&#x43E;&#x433;&#x43E;&#x432;&#x43E;&#x440;&#x438;&#x442;&#x44C;&#x441;&#x44F; (AddBARequest, AddBAResponse, DelBA &#x2014; Management &#x43A;&#x430;&#x434;&#x440;&#x44B;, &#x43F;&#x43E;&#x434;&#x442;&#x432;&#x435;&#x440;&#x436;&#x434;&#x430;&#x44E;&#x442;&#x441;&#x44F; &#x430;&#x43A;&#x43E;&#x43C;):</p>
+<ul>
+<li>&#x420;&#x430;&#x437;&#x43C;&#x435;&#x440; &#x43E;&#x43A;&#x43D;&#x430; (&#x432; &#x448;&#x442;&#x443;&#x43A;&#x430;&#x445; &#x43F;&#x430;&#x43A;&#x435;&#x442;&#x43E;&#x432;), &#x43E;&#x433;&#x440;&#x430;&#x43D;&#x438;&#x447;&#x438;&#x432;&#x430;&#x435;&#x442; &#x43F;&#x430;&#x43C;&#x44F;&#x442;&#x44C; &#x43D;&#x430; &#x441;&#x43E;&#x445;&#x440;&#x430;&#x43D;&#x435;&#x43D;&#x438;&#x435; &#x43F;&#x430;&#x43A;&#x435;&#x442;&#x43E;&#x432;</li>
+<li>&#x422;&#x430;&#x439;&#x43C;&#x430;&#x443;&#x442; (&#x435;&#x441;&#x43B;&#x438; &#x43D;&#x435; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x43B;&#x438; block-ack &#x432; &#x442;&#x435;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x44D;&#x442;&#x43E;&#x433;&#x43E; &#x432;&#x440;&#x435;&#x43C;&#x435;&#x43D;&#x438;, &#x442;&#x43E; &#x437;&#x430;&#x431;&#x44B;&#x432;&#x430;&#x435;&#x43C; &#x43E; &#x441;&#x43E;&#x433;&#x43B;&#x430;&#x448;&#x435;&#x43D;&#x438;&#x44F;&#x445;)</li>
+<li>&#x41D;&#x430;&#x447;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x439; seqNumber</li>
+</ul>
+<p>&#x41F;&#x430;&#x43A;&#x435;&#x442;&#x44B; &#x43D;&#x443;&#x43C;&#x435;&#x440;&#x443;&#x44E;&#x442;&#x441;&#x44F; &#x43F;&#x43E; mod 4096.</p>
+<p>&#x420;&#x435;&#x430;&#x43B;&#x44C;&#x43D;&#x43E;&#x435; &#x43E;&#x43A;&#x43D;&#x43E; &#x43D;&#x435; &#x431;&#x43E;&#x43B;&#x435;&#x435; &#x447;&#x435;&#x43C; 64 &#x43F;&#x430;&#x43A;&#x435;&#x442;&#x430;. (&#x437;&#x430;&#x444;&#x438;&#x43A;&#x441;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43D;&#x43E; &#x432; &#x441;&#x442;&#x430;&#x43D;&#x434;&#x430;&#x440;&#x442;&#x435;).</p>
+<p>&#x415;&#x441;&#x442;&#x44C; &#x434;&#x432;&#x430; &#x440;&#x435;&#x436;&#x438;&#x43C;&#x430; &#x43E;&#x442;&#x43F;&#x440;&#x430;&#x432;&#x43A;&#x438; &#x431;&#x43B;&#x43E;&#x447;&#x43D;&#x44B;&#x445; &#x43F;&#x43E;&#x434;&#x442;&#x432;&#x435;&#x440;&#x436;&#x434;&#x435;&#x43D;&#x438;&#x439;.</p>
+<p>&#x41E;&#x441;&#x442;&#x430;&#x43D;&#x430;&#x432;&#x43B;&#x438;&#x432;&#x430;&#x435;&#x43C; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x447;&#x443; &#x43D;&#x435; &#x43F;&#x43E; retry limit, &#x430; &#x43F;&#x43E; packet lifetime, &#x438;&#x43D;&#x430;&#x447;&#x435; &#x441;&#x43B;&#x43E;&#x436;&#x43D;&#x43E; &#x43E;&#x442;&#x441;&#x43B;&#x435;&#x436;&#x438;&#x432;&#x430;&#x442;&#x44C;.</p>
+<p>&#x420;&#x430;&#x437;&#x43C;&#x435;&#x440; &#x43E;&#x43A;&#x43D;&#x430; &#x442;&#x430;&#x43A;&#x436;&#x435; &#x43E;&#x442;&#x441;&#x43B;&#x435;&#x436;&#x438;&#x432;&#x430;&#x435;&#x442;&#x441;&#x44F;. </p>
+<ul>
+<li>&#x415;&#x441;&#x43B;&#x438; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x438;&#x43B;&#x438; &#x441;&#x442;&#x430;&#x440;&#x44B;&#x439; SN, &#x442;&#x43E; &#x43F;&#x430;&#x43A;&#x435;&#x442; &#x43E;&#x442;&#x431;&#x440;&#x430;&#x441;&#x44B;&#x432;&#x430;&#x435;&#x442;&#x441;&#x44F;</li>
+<li>&#x435;&#x441;&#x43B;&#x438; &#x432; &#x43F;&#x440;&#x435;&#x434;&#x435;&#x43B;&#x430;&#x445; &#x43E;&#x43A;&#x43D;&#x430;, &#x442;&#x43E; &#x43F;&#x440;&#x438;&#x43D;&#x438;&#x43C;&#x430;&#x435;&#x43C;</li>
+<li>&#x435;&#x441;&#x43B;&#x438; &#x441;&#x43B;&#x438;&#x448;&#x43A;&#x43E;&#x43C; &#x43D;&#x43E;&#x432;&#x44B;&#x439;, &#x442;&#x43E; &#x441;&#x434;&#x432;&#x438;&#x433;&#x430;&#x435;&#x43C; &#x43E;&#x43A;&#x43D;&#x43E;, &#x430; &#x442;&#x435; &#x43F;&#x430;&#x43A;&#x435;&#x442;&#x44B;, &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x435; &#x432;&#x44B;&#x43F;&#x43B;&#x438; &#x43C;&#x44B; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x435;&#x43C; &#x43D;&#x430;&#x432;&#x435;&#x440;&#x445; (&#x442;&#x43A; &#x432;&#x441;&#x435; &#x440;&#x430;&#x432;&#x43D;&#x43E; &#x432;&#x441;&#x435; &#x43E;&#x441;&#x442;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x435; &#x43C;&#x44B; &#x43E;&#x442;&#x431;&#x440;&#x43E;&#x441;&#x438;&#x43C;). </li>
+<li>&#x418;&#x43D;&#x430;&#x447;&#x435;, &#x43F;&#x430;&#x43A;&#x435;&#x442;&#x44B; &#x43D;&#x435; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x44E;&#x442;&#x441;&#x44F; &#x43D;&#x430;&#x432;&#x435;&#x440;&#x445;, &#x43F;&#x43E;&#x43A;&#x430; &#x43D;&#x435; &#x431;&#x443;&#x434;&#x443;&#x442; &#x437;&#x430;&#x43A;&#x440;&#x44B;&#x442;&#x44B; &#x432;&#x441;&#x435; &#x434;&#x44B;&#x440;&#x43A;&#x438;. </li>
+<li>&#x41A;&#x43E;&#x433;&#x434;&#x430; &#x43F;&#x440;&#x438;&#x445;&#x43E;&#x434;&#x438;&#x442; Block ACK Request, &#x442;&#x430;&#x43A;&#x436;&#x435; &#x441;&#x434;&#x432;&#x438;&#x433;&#x430;&#x435;&#x43C; &#x43E;&#x43A;&#x43D;&#x43E; &#x434;&#x43E; &#x443;&#x43A;&#x430;&#x437;&#x430;&#x43D;&#x43D;&#x43E;&#x433;&#x43E; &#x432; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441;&#x435; &#x43D;&#x43E;&#x43C;&#x435;&#x440;&#x430;.</li>
+</ul>
+<h5 id="immediate">Immediate</h5>
+<p>&#x421;&#x435;&#x439;&#x447;&#x430;&#x441; &#x432;&#x441;&#x435; &#x441;&#x442;&#x430;&#x440;&#x430;&#x44E;&#x442;&#x441;&#x44F; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x435;&#x433;&#x43E;.</p>
+<p>Block Ack Response &#x441;&#x43B;&#x435;&#x434;&#x443;&#x435;&#x442; &#x437;&#x430; Block Ack Request &#x447;&#x435;&#x440;&#x435;&#x437; SIFS</p>
+<h5 id="delayed">Delayed</h5>
+<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>B</mi><mi>l</mi><mi>o</mi><mi>c</mi><mi>k</mi><mi>A</mi><mi>c</mi><mi>k</mi><mi>R</mi><mi>e</mi><mi>q</mi><mi>u</mi><mi>e</mi><mi>s</mi><mi>t</mi><mo>&#x2192;</mo><mi>A</mi><mi>c</mi><mi>k</mi><mo>&#x2192;</mo><mo>&#x2026;</mo><mi>C</mi><mi>h</mi><mi>a</mi><mi>n</mi><mi>n</mi><mi>e</mi><mi>l</mi><mi>A</mi><mi>c</mi><mi>c</mi><mi>e</mi><mi>s</mi><mi>s</mi><mo>&#x22EF;</mo><mo>&#x2192;</mo><mi>B</mi><mi>l</mi><mi>o</mi><mi>c</mi><mi>k</mi><mi>A</mi><mi>c</mi><mi>k</mi><mi>R</mi><mi>e</mi><mi>s</mi><mi>p</mi><mi>o</mi><mi>n</mi><mi>s</mi><mi>e</mi></mrow><annotation encoding="application/x-tex">Block Ack Request \to Ack \to \dots ChannelAccess \dots \to Block Ack Response</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mord mathdefault">o</span><span class="mord mathdefault">c</span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="mord mathdefault">A</span><span class="mord mathdefault">c</span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="mord mathdefault">e</span><span class="mord mathdefault" style="margin-right:0.03588em;">q</span><span class="mord mathdefault">u</span><span class="mord mathdefault">e</span><span class="mord mathdefault">s</span><span class="mord mathdefault">t</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">&#x2192;</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault">A</span><span class="mord mathdefault">c</span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">&#x2192;</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="minner">&#x2026;</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.07153em;">C</span><span class="mord mathdefault">h</span><span class="mord mathdefault">a</span><span class="mord mathdefault">n</span><span class="mord mathdefault">n</span><span class="mord mathdefault">e</span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mord mathdefault">A</span><span class="mord mathdefault">c</span><span class="mord mathdefault">c</span><span class="mord mathdefault">e</span><span class="mord mathdefault">s</span><span class="mord mathdefault">s</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="minner">&#x22EF;</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">&#x2192;</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mord mathdefault">o</span><span class="mord mathdefault">c</span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="mord mathdefault">A</span><span class="mord mathdefault">c</span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="mord mathdefault">e</span><span class="mord mathdefault">s</span><span class="mord mathdefault">p</span><span class="mord mathdefault">o</span><span class="mord mathdefault">n</span><span class="mord mathdefault">s</span><span class="mord mathdefault">e</span></span></span></span></p>
+<p>&#x41A;&#x440;&#x43E;&#x43C;&#x435; Immediate &#x438; delayed &#x441;&#x443;&#x449;&#x435;&#x441;&#x442;&#x432;&#x443;&#x435;&#x442;:</p>
+<ul>
+<li>&#x41F;&#x43E;&#x441;&#x442;&#x43E;&#x44F;&#x43D;&#x43D;&#x43E;&#x435; &#x43E;&#x442;&#x441;&#x43B;&#x435;&#x436;&#x438;&#x432;&#x430;&#x43D;&#x438;&#x435; &#x441;&#x43E;&#x441;&#x442;&#x43E;&#x44F;&#x43D;&#x438;&#x439;</li>
+<li>&#x412;&#x440;&#x435;&#x43C;&#x435;&#x43D;&#x43D;&#x43E;&#x435; (&#x445;&#x440;&#x430;&#x43D;&#x438;&#x43C; &#x43D;&#x435; &#x432;&#x441;&#x44E; &#x431;&#x438;&#x442;&#x43E;&#x432;&#x443;&#x44E; &#x43C;&#x430;&#x441;&#x43A;&#x443;, &#x43E;&#x442;&#x432;&#x435;&#x447;&#x430;&#x435;&#x43C; &#x43D;&#x430;&#x443;&#x433;&#x430;&#x434;, &#x445;&#x437; &#x437;&#x430;&#x447;&#x435;&#x43C;)</li>
+</ul>
+<p>BTW</p>
+<p>Sequence control &#x441;&#x43E;&#x441;&#x442;&#x43E;&#x438;&#x442; &#x438;&#x437;:</p>
+<ul>
+<li>Sequence number</li>
+<li>Fragment number (&#x434;&#x43B;&#x44F; &#x444;&#x440;&#x430;&#x433;&#x43C;&#x435;&#x43D;&#x442;&#x430;&#x446;&#x438;&#x438;)</li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="lec4.html" class="navigation navigation-prev " aria-label="Previous page: Лекция 4: Mesh + MCCA">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="lec6.html" class="navigation navigation-next " aria-label="Next page: Лекция 6: 802.11ax: Введение">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Лекция 5: Высокоскоростной WiFi: Обзор","level":"1.2.5","depth":2,"next":{"title":"Лекция 6: 802.11ax: Введение","level":"1.2.6","depth":2,"path":"wifi/lec6.md","ref":"./wifi/lec6.md","articles":[]},"previous":{"title":"Лекция 4: Mesh + MCCA","level":"1.2.4","depth":2,"path":"wifi/lec4.md","ref":"./wifi/lec4.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["katex@git+https://github.com/Nikscorp/plugin-katex.git"],"pluginsConfig":{"katex":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"wifi/lec5.md","mtime":"2019-06-10T20:11:24.564Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-06-10T20:12:37.760Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
