@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Лекция 8: 802.11ax: Продолжение · GitBook</title>
+        <title>Лекция 8: 802.11ad, ay: WiFi в mm диапазоне · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -60,8 +60,6 @@
     <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
-    
-    <link rel="next" href="lec9.html" />
     
     
     <link rel="prev" href="lec7.html" />
@@ -209,7 +207,7 @@
                 <a href="lec6.html">
             
                     
-                    Лекция 6: 802.11ax: Введение
+                    Лекция 6: 802.11ax
             
                 </a>
             
@@ -235,33 +233,7 @@
                 <a href="lec8.html">
             
                     
-                    Лекция 8: 802.11ax: Продолжение
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.2.9" data-path="lec9.html">
-            
-                <a href="lec9.html">
-            
-                    
-                    Лекция 9: 802.11ax: Завершение
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.2.10" data-path="lec10.html">
-            
-                <a href="lec10.html">
-            
-                    
-                    Лекция 10: 802.11ad, ay: WiFi в mm диапазоне
+                    Лекция 8: 802.11ad, ay: WiFi в mm диапазоне
             
                 </a>
             
@@ -304,7 +276,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Лекция 8: 802.11ax: Продолжение</a>
+        <a href=".." >Лекция 8: 802.11ad, ay: WiFi в mm диапазоне</a>
     </h1>
 </div>
 
@@ -319,27 +291,31 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h3 id="80211-ax-&#x2014;-&#x43F;&#x440;&#x43E;&#x434;&#x43E;&#x43B;&#x436;&#x435;&#x43D;&#x438;&#x435;">802.11 ax &#x2014; &#x41F;&#x440;&#x43E;&#x434;&#x43E;&#x43B;&#x436;&#x435;&#x43D;&#x438;&#x435;</h3>
-<h4 id="ofdma">OFDMA</h4>
-<p>&#x41E;&#x434;&#x43D;&#x43E; &#x438;&#x437; &#x433;&#x43B;&#x430;&#x432;&#x43D;&#x44B;&#x445; &#x43F;&#x440;&#x435;&#x438;&#x43C;&#x443;&#x449;&#x435;&#x441;&#x442;&#x432;</p>
+                                <h3 id="80211-ad-ay">802.11 ad ay</h3>
+<p> Wifi &#x432; &#x43C;&#x438;&#x43B;&#x43B;&#x438;&#x43C;&#x435;&#x442;&#x440;&#x43E;&#x432;&#x43E;&#x43C; &#x434;&#x438;&#x430;&#x43F;&#x430;&#x437;&#x43E;&#x43D;&#x435;</p>
+<p>&#x417;&#x430;&#x447;&#x435;&#x43C;:</p>
 <ul>
-<li>MU-RTS</li>
-<li>CTS</li>
-<li>Data</li>
-<li>UL ACK</li>
+<li>&#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x432;&#x437;&#x44F;&#x442;&#x44C; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x448;&#x438;&#x440;&#x438;&#x43D;&#x443; &#x43F;&#x43E;&#x43B;&#x43E;&#x441;&#x44B;</li>
+<li>&#x447;&#x430;&#x441;&#x442;&#x43E;&#x442;&#x430; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435;</li>
+<li>&#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x441;&#x43F;&#x435;&#x43A;&#x442;&#x440;&#x430; &#x2014; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x43F;&#x440;&#x43E;&#x43F;&#x443;&#x441;&#x43A;&#x43D;&#x430;&#x44F; &#x441;&#x43F;&#x43E;&#x441;&#x43E;&#x431;&#x43D;&#x43E;&#x441;&#x442;&#x44C; (&#x441;&#x43B;&#x435;&#x434;&#x443;&#x435;&#x442; &#x438;&#x437; &#x444;&#x43E;&#x440;&#x43C;&#x443;&#x43B;&#x44B; &#x428;&#x435;&#x43D;&#x43D;&#x43E;&#x43D;&#x430;)</li>
 </ul>
-<p>&#x422;&#x440;&#x435;&#x431;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x435; &#x43D;&#x430; &#x440;&#x430;&#x437;&#x431;&#x440;&#x43E;&#x441; SIFS &#x43F;&#x43E;&#x432;&#x44B;&#x441;&#x438;&#x43B;&#x438;</p>
+<p>&#x41D;&#x443;&#x436;&#x43D;&#x43E; &#x434;&#x43B;&#x44F; &#x43C;&#x43D;&#x43E;&#x433;&#x438;&#x445; &#x441;&#x446;&#x435;&#x43D;&#x430;&#x440;&#x438;&#x435;&#x432;, &#x433;&#x434;&#x435; &#x43D;&#x443;&#x436;&#x43D;&#x44B; &#x432;&#x44B;&#x441;&#x43E;&#x43A;&#x438;&#x435; &#x441;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x438;.</p>
+<p>802.11 ad &#x2014; &#x430;&#x43D;&#x430;&#x43B;&#x43E;&#x433; a, &#x43D;&#x43E; &#x432; mm</p>
+<p>802.11 ay &#x2014; &#x430;&#x43D;&#x430;&#x43B;&#x43E;&#x433; ac, &#x43D;&#x43E; &#x432; mm</p>
+<p>802.11 ad:</p>
 <ul>
-<li>Primary20</li>
-<li>secondary20</li>
-<li>Secondary40</li>
+<li>&#x448;&#x438;&#x440;&#x438;&#x43D;&#x430; &#x43F;&#x43E;&#x43B;&#x43E;&#x441;&#x44B; 2 &#x413;&#x433;&#x446;</li>
+<li>&#x43E;&#x442;&#x43A;&#x430;&#x437;&#x430;&#x43B;&#x438;&#x441;&#x44C; &#x43E;&#x442; OFDM (&#x438;&#x437; &#x437;&#x430; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x43E;&#x433;&#x43E; &#x43A;&#x43E;&#x43B;&#x438;&#x447;&#x435;&#x441;&#x442;&#x432;&#x430; &#x43F;&#x43E;&#x434;&#x43D;&#x435;&#x441;&#x443;&#x449;&#x438;&#x445;) &#x2014; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x443;&#x435;&#x442;&#x441;&#x44F; &#x447;&#x442;&#x43E;-&#x442;&#x43E; &#x434;&#x440;&#x443;&#x433;&#x43E;&#x435;</li>
+<li>&#x431;&#x43E;&#x43B;&#x435;&#x435; &#x432;&#x44B;&#x441;&#x43E;&#x43A;&#x438;&#x435; &#x441;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x438; &#x432; &#x421;&#x41A;&#x41A;</li>
+<li>&#x41D;&#x43E;&#x43C;&#x438;&#x43D;&#x430;&#x43B;&#x44C;&#x43D;&#x430;&#x44F; &#x441;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x44C; &#x434;&#x43E; 7 &#x413;&#x431;/&#x441;</li>
 </ul>
-<p>OFDMA Random Access</p>
+<p>802.11 ay:</p>
 <ul>
-<li>&#x441;&#x447;&#x438;&#x442;&#x430;&#x435;&#x43C; RU</li>
-<li>&#x43D;&#x443;&#x436;&#x435;&#x43D; &#x434;&#x43B;&#x44F; &#x441;&#x440;&#x43E;&#x447;&#x43D;&#x43E;&#x439; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x447;&#x438; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x445;</li>
-<li>&#x438;&#x43B;&#x438; &#x43F;&#x440;&#x43E;&#x441;&#x442;&#x43E; &#x43E;&#x43F;&#x43E;&#x432;&#x435;&#x441;&#x442;&#x438;&#x442;&#x44C; &#x442;&#x43E;&#x447;&#x43A;&#x443; &#x434;&#x43E;&#x441;&#x442;&#x443;&#x43F;&#x430; &#x43E; &#x43D;&#x430;&#x43B;&#x438;&#x447;&#x438;&#x438; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x445;</li>
+<li>&#x448;&#x438;&#x440;&#x438;&#x43D;&#x430; &#x43F;&#x43E;&#x43B;&#x43E;&#x441;&#x44B; 8 &#x413;&#x433;&#x446;</li>
+<li>&#x414;&#x43E; 8 spatial &#x441;&#x442;&#x440;&#x438;&#x43C;&#x43E;&#x432;</li>
 </ul>
+<p>&#x41F;&#x440;&#x43E;&#x431;&#x43B;&#x435;&#x43C;&#x44B; &#x441; &#x434;&#x438;&#x430;&#x43F;&#x430;&#x437;&#x43E;&#x43D;&#x43E;&#x43C; &#x432;&#x44B;&#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x43C; &#x43F;&#x43E;&#x434; &#x43D;&#x435;&#x43B;&#x438;&#x446;&#x435;&#x43D;&#x437;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43D;&#x44B;&#x43C; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x435;&#x43C; &#x2014; &#x432; &#x44D;&#x442;&#x43E;&#x43C; &#x434;&#x438;&#x430;&#x43F;&#x430;&#x437;&#x43E;&#x43D;&#x435; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x435;&#x442;&#x441;&#x44F; &#x43C;&#x430;&#x43A;&#x441;&#x438;&#x43C;&#x443;&#x43C; &#x43D;&#x430; 10 &#x43C;&#x435;&#x442;&#x440;&#x43E;&#x432; &#x438;&#x437;-&#x437;&#x430; &#x43F;&#x43E;&#x433;&#x43B;&#x43E;&#x449;&#x435;&#x43D;&#x438;&#x44F; &#x43A;&#x438;&#x441;&#x43B;&#x43E;&#x440;&#x43E;&#x434;&#x430; (?)</p>
+<h4 id="&#x430;&#x440;&#x445;&#x438;&#x442;&#x435;&#x43A;&#x442;&#x443;&#x440;&#x430;-&#x441;&#x435;&#x442;&#x438;">&#x410;&#x440;&#x445;&#x438;&#x442;&#x435;&#x43A;&#x442;&#x443;&#x440;&#x430; &#x441;&#x435;&#x442;&#x438;</h4>
 
                                 
                                 </section>
@@ -367,14 +343,10 @@
 
             
                 
-                <a href="lec7.html" class="navigation navigation-prev " aria-label="Previous page: Лекция 7: 802.11n, 802.11ac">
+                <a href="lec7.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Лекция 7: 802.11n, 802.11ac">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
-                
-                <a href="lec9.html" class="navigation navigation-next " aria-label="Next page: Лекция 9: 802.11ax: Завершение">
-                    <i class="fa fa-angle-right"></i>
-                </a>
                 
             
         
@@ -383,7 +355,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Лекция 8: 802.11ax: Продолжение","level":"1.2.8","depth":2,"next":{"title":"Лекция 9: 802.11ax: Завершение","level":"1.2.9","depth":2,"path":"wifi/lec9.md","ref":"./wifi/lec9.md","articles":[]},"previous":{"title":"Лекция 7: 802.11n, 802.11ac","level":"1.2.7","depth":2,"path":"wifi/lec7.md","ref":"./wifi/lec7.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["katex@git+https://github.com/Nikscorp/plugin-katex.git"],"pluginsConfig":{"katex":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"wifi/lec8.md","mtime":"2019-06-12T20:14:21.585Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-06-12T20:16:42.008Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Лекция 8: 802.11ad, ay: WiFi в mm диапазоне","level":"1.2.8","depth":2,"previous":{"title":"Лекция 7: 802.11n, 802.11ac","level":"1.2.7","depth":2,"path":"wifi/lec7.md","ref":"./wifi/lec7.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["katex@git+https://github.com/Nikscorp/plugin-katex.git"],"pluginsConfig":{"katex":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"wifi/lec8.md","mtime":"2019-06-13T22:01:33.502Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-06-13T22:02:41.673Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
