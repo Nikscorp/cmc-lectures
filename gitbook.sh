@@ -11,16 +11,15 @@ MAIN_BRANCH="master"
 UPSTREAM="https://$GITHUB_TOKEN@github.com/$TRAVIS_REPO_SLUG.git"
 MESSAGE="Rebuild doc for revision $TRAVIS_COMMIT: $TRAVIS_COMMIT_MESSAGE"
 AUTHOR="$USER <>"
-unset SKIP_PUBLISH
 
 if [ "$TRAVIS_PULL_REQUEST" != "false" ];then
-  echo "Documentation won't be published on pull request"
-  SKIP_PUBLISH=1
+  echo "Documentation won't build on pull request"
+  exit 0
 fi
 
 if [ "$TRAVIS_BRANCH" != "$MAIN_BRANCH" ];then
-  echo "Documentation won't be published: Not on branch $MAIN_BRANCH"
-  SKIP_PUBLISH=1
+  echo "Documentation won't build: Not on branch $MAIN_BRANCH"
+  exit 0
 fi
 
 function setup() {
@@ -53,9 +52,7 @@ function publish() {
 }
 
 function main() {
-  setup && build
-  [[ ! -z "$SKIP_PUBLISH" ]] && publish
+  setup && build && publish
 }
 
 main
-
